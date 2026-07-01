@@ -10,7 +10,7 @@
 - **Production ML.** A Two-Tower PyTorch matching microservice (sub-100ms queries via PostgreSQL pgvector, full CI/CD to AWS), and RAG agents grounded in SQL / Neo4j knowledge graphs.
 
 ### Featured project
-**[LINet, Multi-Stream Networks](https://github.com/clingergab/Multi-Stream-Neural-Networks)**: a novel multi-stream multi-modal fusion architecture, designed, built, and benchmarked from scratch in PyTorch. Custom `LIConv2d` operator. 45.2% mean class accuracy from scratch on SUN RGB-D (strongest at ResNet-18 scale), 49.6% with ScanNet pretraining. Fully reproducible.
+**[LINet, Multi-Stream Networks](https://github.com/clingergab/Multi-Stream-Neural-Networks)** · 📄 [arXiv:2606.31135](https://arxiv.org/abs/2606.31135): a novel multi-stream multi-modal fusion architecture, designed, built, and benchmarked from scratch in PyTorch. Custom `LIConv2d` operator integrating modalities at every convolutional layer. Strongest mean class accuracy of any model trained from scratch on SUN RGB-D and NYU Depth V2. Fully reproducible.
 
 ### Tech
 `Go` `Java` `Python` `C/C++` `SQL` · `PyTorch` `FastAPI` `Spring Boot` `PostgreSQL (pgvector)` `Neo4j` · `AWS` `Docker` `CI/CD`
